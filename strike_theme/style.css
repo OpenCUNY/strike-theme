@@ -1,5 +1,68 @@
-body	{
-				max-width; 450px;
-				background-color: black;
-				font-family: Oswald; Open-Sans; Sans;
-				}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+body{
+		max-width: 450px;
+		background-color: black;
+		font-size: 16px;
+}
+
+h1, .cite1, cite	{
+		color: white;
+		margin: 0 auto .5em;
+        font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  text-align: left;
+  font-size: 2em;
+}
+
+.cite1 {
+  font-size: 1.5em;
+  text-align: right;
+  margin: 0 auto 0;
+}
+
+.cite2 {
+  font-size: .75em;
+  text-align: right;
+  margin: 0 auto 0;
+}
+
+p	{
+		font-family: 'open sans', sans-serif;
+        text-align: justify;      
+        color: white;
+        line-height: 1.5em;
+}
+
+.highlight  {
+              color: yellow;
+}
+/*
+Theme Name: DSC-Strike
+Author: Paul L. Hebert
+Description: Simple child theme displays message about protest and login.
+*/<!DOCTYPE html>
+<html>
+<head>
+<?php
+                get_header();
+                ?>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>OpenCUNY</title>
+</head>
+<body>
+  <h1><span class="highlight">Compensation</span> isn't aid.</h1>
+  <p>OpenCUNY is cared for and nurtured by three student coordinators and a community board. You support their work through the Doctoral Students' Council (DSC), with funds from your <span class="highlight">student activity fee.</span></p>
+  <p>In June 2018, Graduate Center administrators re-classified compensation paid to students for DSC work as financial aid. This move places strict limits who is eligible to receive money and how much; demeans student labor; and was imposed without notice or explanation.</p>
+  <p>In September 2018, the DSC passed a resolution against the administrative action and called for a sustained organized protest. During the protest, and until fair compensation returns, OpenCUNY will continue to be available, but services and events will be limited. Please allow extra time for inquiries.<p> 
+  <p>Questions or concerns? Email <span class="highlight">info@opencuny.org</span></p>
+  <hr/>
+  <?php wp_login_form(); ?>
+  <hr/>
+  <h1 class="cite">"Join the union, girls, and together say <span class="highlight">Equal Pay</span> for <span class="highlight">Equal Work</span>."</h1>
+    <p class="cite1">— Susan B. Anthony</p>
+  <p class="cite2"><i>The Revolution</i> (18 March 1869)</p>
+</body>
