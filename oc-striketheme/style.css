@@ -1,0 +1,93 @@
+/*
+Theme Name: OpenCUNY Strike!
+Text Domain: opencuny-home
+Version: 1.5
+Description: Striped down OpenCUNY.org landing page informing visitors of DSC's strike, Fall 2018. 
+Author: OpenCUNY
+Author URI: https://opencuny.org/
+License: Creative Commons Attribution-ShareAlike (4.0 International or later)
+License URI: https://creativecommons.org/licenses/by-sa/4.0/
+Use this theme to have fun, make somethign cool, and share what you've learned with others.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+body, a {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #202020;
+	font-size: 1.2rem;
+	color: white;
+	margin: auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+button {
+	display: inline-block;
+	padding: .5rem 1rem;
+	margin: 1rem;
+}
+
+em {
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.left-align {
+  text-align: left;
+}
+
+.body-content {
+	max-width: 600px;
+	margin: auto;
+	padding: 1rem;
+}
+.p {
+	font-size: inherit;
+}
+
+.centered {
+	text-align: center;
+}
+.small {
+	font-size: .9rem;
+}
+
+h1 {
+	font-family: 'Arial Black', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	color: inherit;
+
+}
+
+strong, .highlight {
+	display: inline-block;
+	color: #202020;
+	background-color: yellow;
+}
+
+.flt-left {
+	float: left;
+}
+
+.quotation {
+	line-height: 2em;
+	max-width: 30rem;
+	margin: 5rem auto;
+	padding-left: 4rem;
+	text-align: left;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.ital {
+	font-style: italic;
+}
+
+.wavy-underline {
+	text-decoration: yellow wavy underline;
+}
