@@ -1,8 +1,18 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OpenCUNY.org landing page">
+  <meta name="author" content="http://opencuny.org">
+  <meta name="shortcut icon" href="images/logo.png">
+
+	<!-- Loads the theme CSS & page title via functions.php -->
+		<?php
+			wp_head();
+		?>
+  </head>
 <body>
 <div style="background-color: black; color: white; padding: 50px;">
 <h1><span style="font-family: 'arial black', sans-serif; color: #ff0000; font-size: 18pt;"><span class="highlight" style="color: #ffff00;">Compensation</span><span style="color: #ffffff;"> isn't aid.</span></span></h1>
